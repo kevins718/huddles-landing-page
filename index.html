@@ -5,17 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Huddle page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <div>
-        <nav>
-          <img src="logo.svg" alt="" />
-          <button>Try it Free</button>
-        </nav>
-      </div>
-      <div>
-        <div>
+      <nav>
+        <img src="logo.svg" alt="" />
+        <button class="btn">Try it Free</button>
+      </nav>
+
+      <div class="build">
+        <div class="build-left">
           <h1>Build the community your fans will love</h1>
           <p>
             Huddle re-imagines the way we build communities. You have a voice
@@ -24,86 +34,134 @@
           </p>
           <button>Get Started for free</button>
         </div>
-        <div>
+        <div class="illustration">
           <img src="illustration-mockups.svg" alt="illustration-mockup" />
         </div>
       </div>
     </header>
     <main>
-      <div>
-        <div>
-          <h3>Grow Together</h3>
-          <p>
-            Generate meaningful discussions with your audience and build a
-            strong , loyal community.Think of the insightful conversationsyou
-            miss out on with with a feedback form
-          </p>
+      <div class="services">
+        <div class="service service-1">
+          <div class="content">
+            <h2>Grow Together</h2>
+            <p>
+              Generate meaningful discussions with your audience and build a
+              strong , loyal community.Think of the insightful conversationsyou
+              miss out on with with a feedback form
+            </p>
+          </div>
+          <div>
+            <img
+              src="illustration-grow-together.svg"
+              alt="illustration-grow-together"
+            />
+          </div>
         </div>
-        <div>
-          <img
-            src="illustration-grow-together.svg"
-            alt="illustration-grow-together"
-          />
+
+        <div class="service service-2">
+          <div>
+            <img
+              src="illustration-flowing-conversation.svg"
+              alt="illustration-flowing-conversation"
+            />
+          </div>
+          <div class="content left">
+            <h2>Flowing Conversations</h2>
+            <p>
+              You wouldn't paginate a conversation in rreal life , so why do it
+              online ?Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+        <div class="service service-3">
+          <div class="content">
+            <h2>Your Users</h2>
+            <p>
+              It takes no time at all to intergrate Huddle with your app's
+              authentication solution.This means, once sifned in to your app ,
+              your users can start chatting immediately.
+            </p>
+          </div>
+          <div>
+            <img
+              src="illustration-your-users.svg"
+              alt="illustration-your-users"
+            />
+          </div>
         </div>
       </div>
-      <div>
-        <div>
-          <img
-            src="illustration-flowing-conversation.svg"
-            alt="illustration-flowing-conversation"
-          />
-        </div>
-        <div>
-          <h3>Flowing Conversations</h3>
-          <p>
-            You wouldn't paginate a conversation in rreal life , so why do it
-            online ?Our threads have just-in-time loading for a more natural
-            flow.
-          </p>
-        </div>
-      </div>
-      <div>
-        <div>
-          <h3>Your Users</h3>
-          <p>
-            It takes no time at all to intergrate Huddle with your app's
-            authentication solution.This means, once sifned in to your app ,
-            your users can start chatting immediately.
-          </p>
-        </div>
-        <div>
-          <img
-            src="illustration-your-users.svg"
-            alt="illustration-your-users"
-          />
-        </div>
-      </div>
-      <div>
-        <h3>Ready To Build Your Community?</h3>
-        <button>Get Started For Free</button>
+      <div class="promo">
+        <h1>Ready To Build Your Community?</h1>
+        <button class="btn btn2">Get Started For Free</button>
       </div>
     </main>
     <footer>
-      <header></header>
-      <main>
-        <div></div>
-        <div>
+      <img src="footer-logo.svg" class="footer-logo" alt="" />
+      <div class="footer-sec">
+        <div class="sec-1">
+          <ul>
+            <li>
+              <div class="add">
+                <img src="icon-location.svg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  minima sit assumenda consequuntur sed quis, odit nulla, et
+                  error, ab minus dolore a quos sunt veritatis delectus
+                  perferendis corrupti tempore.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="add">
+                <img src="icon-phone.svg" alt="" />
+                <p>+1-543-123-4567</p>
+              </div>
+            </li>
+            <li>
+              <div class="add">
+                <img src="icon-email.svg" alt="" />
+                <p>example@huddle.com</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="sec-2">
           <ul>
             <li>About Us</li>
             <li>What We Do</li>
             <li>FAQ</li>
           </ul>
         </div>
-        <div>
+        <div class="sec-3">
           <ul>
             <li>Career</li>
             <li>Blog</li>
             <li>Contact Us</li>
           </ul>
         </div>
-        <div></div>
-      </main>
-      <footer></footer>
+        <div class="sec-4">
+          <ul class="social">
+            <li>
+              <a href="#">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copy">&copy; Copyright 2018 Huddle. All rights reserved.</div>
     </footer>
   </body>
 </html>
